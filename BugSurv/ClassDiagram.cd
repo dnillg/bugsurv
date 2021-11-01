@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ActiConnection">
+    <Position X="1" Y="18" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAQAJgAAAAAAAAIAkAAAgAAgAAAAEIAAQAIAAAEMABA=</HashCode>
+      <FileName>ActiConnection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugSurv">
+    <Position X="14.25" Y="8.25" Width="4.25" />
+    <NestedTypes>
+      <Enum Name="BugSurv::Hotkeys" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bugsurv.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="BugSurv::ipListItem" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bugsurv.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="BugSurv::__unnamed_struct_0006_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bugsurv.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="BugSurv::GuiValues" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bugsurv.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="BugSurv::__unnamed_struct_0006_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bugsurv.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>A10BgGQgAgIEsoEXCEAtRDYAIEA0AUiAqwJBiYR+QQg=</HashCode>
+      <FileName>bugsurv.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cControl" />
+      <Field Name="configurations" />
+      <Field Name="cvWidget" />
+      <Field Name="basicLogger" />
+      <Field Name="about" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChangeFpsDialog">
+    <Position X="1" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIEAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChangeFpsDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Configurations">
+    <Position X="1" Y="23" Width="3.5" />
+    <NestedTypes>
+      <Struct Name="Configurations::ConnectionConf" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Configurations.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAJBABBAAAAAAEAAAAAAIAAAIQAAAAAAAII=</HashCode>
+      <FileName>Configurations.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Connection">
+    <Position X="4.25" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Typedef Name="Connection::ConnectionTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Connection.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Enum Name="Connection::__unnamed_enum_000d_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Connection.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="Connection::Recorder" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Connection.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="Connection::__unnamed_struct_000d_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Connection.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IZ0QiiggwEFEJoFEiyAAggp0qKhkAJACiDCDgIGWgCA=</HashCode>
+      <FileName>Connection.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="processors" />
+      <Field Name="processorThreads" />
+      <Field Name="fpsDialog" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CVImageWidget">
+    <Position X="11" Y="12.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAoAEAAABACABAABAAAAACBAAAAAAJEIAAAEAAAIAA=</HashCode>
+      <FileName>CVImageWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvRtspThread">
+    <Position X="5" Y="21.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgAAAAAgAAAAAQAAAAAACAIiAABAEAAAAAAAAAA=</HashCode>
+      <FileName>CvRtspThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DetachedView">
+    <Position X="11.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAQBAIAAAAAQAAAIAAAAACAAIAAAAA=</HashCode>
+      <FileName>DetachedView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageProcessor">
+    <Position X="8" Y="3.25" Width="2.75" />
+    <NestedTypes>
+      <Struct Name="ImageProcessor::ipData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ImageProcessor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="ImageProcessor::Parameter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ImageProcessor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="ImageProcessor::__unnamed_struct_002c_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ImageProcessor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="ImageProcessor::Action" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ImageProcessor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="ImageProcessor::__unnamed_struct_002c_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ImageProcessor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ASAAAEAABASCgTAggFHAAANFAIAgIAAcAADE0AgAAAA=</HashCode>
+      <FileName>ImageProcessor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dView" />
+      <Field Name="sDialog" />
+      <Field Name="aDialog" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LCCThread">
+    <Position X="8" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAIAAAAACAAAAAAAAAAQABQEAAAA=</HashCode>
+      <FileName>LCCThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalCameraConnection">
+    <Position X="7.75" Y="18" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAEAgAAAgAAAAAAAAAAAAEAAAAMEAAA=</HashCode>
+      <FileName>LocalCameraConnection.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="worker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Logger">
+    <Position X="16" Y="24" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAIAAgAAAAEAAAAAAAAAAAAADEAAAAAAAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpencvConnection">
+    <Position X="5" Y="18" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAgQAAgAAAAAAgAAAAAACAgAEEAAA=</HashCode>
+      <FileName>opencvConnection.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="streamThread" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProcessorThread">
+    <Position X="0.5" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIACAAAAAAAAAAEAAAIAABABAgAAAAAgBsAAIAA=</HashCode>
+      <FileName>ProcessorThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PTZControlGV">
+    <Position X="10.5" Y="17.5" Width="2.75" />
+    <NestedTypes>
+      <Typedef Name="PTZControlGV::PTdirection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PTZControlGV.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Enum Name="PTZControlGV::__unnamed_enum_003b_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PTZControlGV.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="PTZControlGV::PTdata" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PTZControlGV.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="PTZControlGV::__unnamed_struct_003b_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PTZControlGV.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="PTZControlGV::FocusInstruction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PTZControlGV.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Enum Name="PTZControlGV::__unnamed_enum_003b_3" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PTZControlGV.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="PTZControlGV::ZoomInstruction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PTZControlGV.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Enum Name="PTZControlGV::__unnamed_enum_003b_4" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PTZControlGV.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>KBIAoAAgAABQCQACAAAQAABAACAQAAACSCgAAAAAAIA=</HashCode>
+      <FileName>PTZControlGV.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleProcessor">
+    <Position X="11.75" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAABQAAEAAAAABAAAAAAEEAAAAAA=</HashCode>
+      <FileName>SampleProcessor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsDialog">
+    <Position X="14.5" Y="2" Width="2.5" />
+    <NestedTypes>
+      <Typedef Name="SettingsDialog::GuiParam" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SettingsDialog.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="SettingsDialog::__unnamed_struct_0041_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SettingsDialog.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAECABAABAAAIAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>SettingsDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="About">
+    <Position X="14.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>About.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HistogramEqProcessor">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEIAAAAA=</HashCode>
+      <FileName>HistogramEqProcessor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CornerDetectionProcessor">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAAAAAAAAABAAIAAIAAAAKAIAAJEEAAAIAA=</HashCode>
+      <FileName>CornerDetectionProcessor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionsDialog">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ActionsDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

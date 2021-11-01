@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="files">
+    <file>Resources/acti.png</file>
+    <file>Resources/icon1.ico</file>
+    <file>Resources/ikon.png</file>
+    <file>Resources/joy.png</file>
+    <file>Resources/joyd.png</file>
+    <file>Resources/joyz.png</file>
+    <file>Resources/opencv.png</file>
+    <file>Resources/startup.png</file>
+  </qresource>
+</RCC>
